@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso HTML CSS JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <h1 class="title">Juego de Memoria</h1>
+    </header>
+    <main>
+        <section id="game-info" class="game-info hidden">
+            <span id="moves">Movimientos: 0</span>
+            <span id="timer">Tiempo: 0s</span>
+            <span id="score">Puntuacion: 0</span>
+        </section>
+        <section>
+            <button id="start-stop-btn">Iniciar Juego</button>
+        </section>
+        <section id="game-board" class="game-board">
+        </section>
+    </main>
+    <footer>
+        <h2 class="footer">Juego hecho en el curso de html css js</h2>
+    </footer>
+    <script src="app.js"></script>
+    </div>
+  </body>
+</html>
