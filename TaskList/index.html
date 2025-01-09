@@ -9,9 +9,9 @@
     <script src="script.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <div class="List roundBorder">
+    <div class="list roundBorder">
         <div class="date">
-            <div class="dateRight">
+            <div class="dateLeft">
                 <div id="dateNumber" class="dateNumber"></div>
                 <div>
                     <div id="dateMonth"></div>
@@ -21,11 +21,11 @@
             <div id="dateText"></div>
         </div>
         <form onsubmit="addNewTask(event)">
-            <input type="text" name="tasktext" autocomplete="off" placeholder="Nueva Tarea" class="roundBorder"> 
+            <input type="text" name="taskText" autocomplete="off" placeholder="Nueva Tarea" class="roundBorder"> 
             <button type="submit" class="addTaskButton">+</button>
-            <button type="button" class="orderButton roundButton" onclick="renderOrdeerTask()">Ordenar</button>
+            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Ordenar</button>
         </form>
-        <div id="taskContainer"></div>
+        <div id="tasksContainer"></div>
     </div>
 </body>
 </html>
