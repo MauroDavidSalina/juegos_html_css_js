@@ -12,4 +12,3 @@ Cifrador Cesar
 Lista de tareas
 Generador de paleta de colores
 
-algo cambiado
